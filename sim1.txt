@@ -1,0 +1,48 @@
+package hasrelation2;
+
+public class Sim1 {
+	private String Servic_provider;
+	private String type;
+	private float cno;
+	
+	public Sim1(String sp,String type,float cno) {
+		this.Servic_provider=sp;
+		this.type=type;
+		this.cno=cno;
+	}
+
+	public String getServic_provider() {
+		return Servic_provider;
+	}
+
+	public void setServic_provider(String servic_provider) {
+		Servic_provider = servic_provider;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
+	public float getCno() {
+		return cno;
+	}
+
+	public void setCno(float cno) {
+		this.cno = cno;
+	}
+	
+	public void printSim1() {
+		System.out.println("==============sim1===============");
+		System.out.println(Servic_provider);
+		System.out.println(type);
+		System.out.println(cno);
+		System.out.println("==============sim1 end===============");
+		
+	}
+	
+
+}
